@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Guess The Word</title>
+	<title>Math Quiz Game</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -9,14 +9,15 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 <link rel="stylesheet" type="text/css" href="game.css">
+<script src="game_login.js"></script>
 </head>
 <body>
 <h4 id="player1name"></h4><span id="player1score"></span>
 <br>
 <h4 id="player2name"></h4><span id="player2score"></span>
 <div class="container">
-	<center>>
-		<h2 style="color: white;">Guess The Word!</h2>
+	<center>
+		<h2 style="color: rgb(255, 255, 255);">Maths Quiz!</h2>
     <h3 id="playerquestion"></h3>
 	<h3 id="playeranswer"></h3>
 	<div id="output" class="col-lg-6"></div>
@@ -27,9 +28,9 @@
 		<label>Send your numbers: </label>
 
 		<br>
-<input id="word" class="form-control" placeholder="Number 1">
+<input id="number1" class="form-control" placeholder="Number 1">
 <br>
-<input id="word" class="form-control" placeholder="Number 2">
+<input id="number2" class="form-control" placeholder="Number 2">
 <br>
 <button class="btn btn-success" onclick="send()" style="width:30%;">Sendie?</button>
 	</center>
